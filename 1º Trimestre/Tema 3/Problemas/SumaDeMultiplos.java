@@ -3,6 +3,7 @@
  * si no se cumple esta condicion se vuelve a solicitar los valores hasta que se cumpla dicha
  * condición. A continuación calcula la suma de los números comprendidos estrictamente entre
  * ambos extremos que sean multiplos de 3. En caso de no haber ninguno, la suma debe ser 0.
+ * fecha 20261112
  * @author Alejandro González Prieto
  */
 import java.util.Scanner;
