@@ -10,26 +10,26 @@ import java.util.Scanner;
 
 public class ValidacionClasificacionNotas {
     public static void main (String[] args) {
-    Scanner sc = new Scanner(System.in);
-    double nota;
+        Scanner sc = new Scanner(System.in);
+        double nota;
 
-    do {
-        System.out.print("Intoduce la nota: ");
-        nota = sc.nextDouble();
+        do {
+            System.out.print("Intoduce la nota: ");
+            nota = sc.nextDouble();
 
-    if (nota > 10 || nota < 0)
-        System.out.println("ERROR: El rango de nota valido es de 0 a 10");
-    } while (nota > 10 || nota < 0);
-    
-    if (nota < 5)
-        System.out.println("Insuficiente");
-        else if (nota < 6)
-            System.out.println("Suficiente");
-            else if (nota < 7)
-                System.out.println("Bien");
-                else if (nota < 9)
-                    System.out.println("Notable");
-                    else
-                        System.out.println("Sobresaliente");
+        if (nota > 10 || nota < 0)
+            System.out.println("ERROR: El rango de nota valido es de 0 a 10");
+        } while (nota > 10 || nota < 0);
+        
+        if (nota < 5)
+            System.out.println("Insuficiente");
+            else if (nota < 6)
+                System.out.println("Suficiente");
+                else if (nota < 7)
+                    System.out.println("Bien");
+                    else if (nota < 9)
+                        System.out.println("Notable");
+                        else
+                            System.out.println("Sobresaliente");
     }
 }
