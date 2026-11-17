@@ -17,7 +17,7 @@ public class EstadisticaNumero {
             System.out.print("¿Cuantas mediciones quieres introducir? ");
             mediciones = sc.nextInt();
             if ( mediciones <= 0)
-                System.out.println("ERROR: El numero de mediciones debe ser positivo");
+                System.out.println("El numero de mediciones debe ser positivo");
         } while (mediciones <= 0);
 
         for (int i = 0; i < mediciones; i++) {

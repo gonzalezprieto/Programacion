@@ -9,24 +9,24 @@
 import java.util.Scanner;
 public class SumaDeMultiplos {
     public static void main (String[] args) {
-    Scanner sc = new Scanner(System.in);
-    int A, B, suma = 0;
+        Scanner sc = new Scanner(System.in);
+        int A, B, suma = 0;
 
-    do {
-        System.out.print("Introduzca un valor numerico: ");
-        A = sc.nextInt();
-        System.out.print("Introduzca un segundo valor numerico: ");
-        B = sc.nextInt();
+        do {
+            System.out.print("Introduzca un valor numerico: ");
+            A = sc.nextInt();
+            System.out.print("Introduzca un segundo valor numerico: ");
+            B = sc.nextInt();
 
-        if (A > B)
-            System.out.println("ERROR: El segundo valor debe ser mayor o igual al primer valor");
+            if (A > B)
+                System.out.println("ERROR: El segundo valor debe ser mayor o igual al primer valor");
 
-    } while (B < A);
+        } while (B < A);
 
-    for(int i = A+1; i <= B-1; i++) {
-        if(i%3 == 0)
-            suma += i;
-        }
-    System.out.println("La suma de los numeros multiplos de 3 comprendidos entre " + A + " y " + B + " es " + suma);
+        for(int i = A+1; i <= B-1; i++) {
+            if(i%3 == 0)
+                suma += i;
+            }
+        System.out.println("La suma de los numeros multiplos de 3 comprendidos entre " + A + " y " + B + " es " + suma);
     }
 }
