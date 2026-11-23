@@ -1,6 +1,6 @@
 /**
  * Solicita cuantas mediciones se van a introdicir. El numero de mediciones debe ser positivo. Posteriormente, se 
- * realizara la SUMA, MEDIA, MAXIMO y MINIMO de esas mediciones.
+ * realizara la SUMA, MEDIA, MAXIMO y MINIMO de esas mediciones introducidas.
  * fecha 20261116
  * @author Alejandro González Prieto
  */
